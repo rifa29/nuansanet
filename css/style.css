@@ -1,0 +1,147 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+.top-bar {
+	background: #EE5C2D;
+	height: 40px;
+	line-height: 40px;
+}
+
+.top-bar ul {
+	margin-left: 150px;
+}
+
+.top-bar ul li {
+	float: left;
+	font-size: 13px;
+	font-weight: 300;
+	color: #fff;
+	padding-right: 15px;
+	border-right: 1px solid rgba(255,255,255,.5);
+	margin-right: 15px;
+}
+
+header {
+	height: 80px;
+}
+
+header .logo {
+	float: left;
+	margin-top: 15px;
+}
+
+header .logo img {
+	height: 100px;
+}
+
+.container {
+	position: relative;
+}
+
+.logo-box {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 140px;
+	height: 140px;
+	background: #fff;
+	text-align: center;
+	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.logo-box img {
+	width: 80%;
+	margin-top: 15px;
+}
+
+.banner {
+	position: relative;
+	z-index: 9;
+	width: 100%;
+	overflow: hidden;
+	height: 500px;
+}
+
+.floating-box {
+	width: 1000px;
+	height: 100px;
+	padding: 20px 40px;
+	margin: -40px auto 40px;
+	background: #fff;
+	position: relative;
+	z-index: 10;
+	text-align: center;
+	-webkit-box-shadow: 0 -2px 4px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 -2px 4px rgba(0,0,0,0.3);
+	box-shadow: 0 -2px 4px rgba(0,0,0,0.3);
+}
+
+.floating-box p {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.why-us h2 {
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.why-us p {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+	margin-bottom: 50px;
+}
+
+.why-us .circle {
+	width: 250px;
+	height: 250px;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	border: solid 1px #d3d3d3;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.why-us .circle .fa {
+	margin: 40px 0 20px;
+	font-size: 36px;
+}
+
+.why-us .circle h3 {
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 15px
+}
+
+.why-us .circle p {
+	font-size: 13px;
+	color: #ddd;
+	width: 180px;
+	margin: 0 auto;
+	line-height: 18px;
+}
